@@ -89,6 +89,60 @@ header {
 }
 
 /* Main */
+img {
+	width: 100%;
+	border-radius: 10px;
+}
 
+main {
+	padding: 0 10px;
+}
+
+.recipe-name {
+	text-align: center;
+	text-decoration: underline;
+	font-family: Georgia;
+	font-size: 1.4em;
+}
+
+.recipe-figure-credit {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.recipe-figure-credit-link {
+	color: #1D1D1D;
+}
+
+.recipe-figure-image {
+	box-shadow: 0px 0px 5px red,
+				0px 0px 10px orange,
+				0px 0px 15px yellow;
+}
+
+.recipe-intro {
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+	background-image: linear-gradient(135deg, #95E8E5, #7FB8EB, #63EBE8);
+}
+
+.recipe-quote {
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.recipe-quoter {
+	font-family: Arial;
+	font-style: initial;
+	font-weight: bold;
+}
+
+.section-head {
+	text-align: center;
+	text-decoration: underline;
+	font-family: Bookman;
+	font-size: 2.3em;
+}
 
 /* Footer */
