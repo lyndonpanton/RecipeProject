@@ -24,7 +24,21 @@ header {
 	background-color: yellow;
 }
 
+.nav-menu:hover > .nav-item {
+	display: block;
+	/*font-weight: bold;*/
+}
 
+.nav-item-hidden {
+	display: none;
+	/*list-style-type: none;*/
+}
+
+#navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 
 /* Main */
 
