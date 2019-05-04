@@ -43,7 +43,10 @@ header {
 	color: green;
 }
 
-
+.nav-item a:hover {
+	text-decoration: underline;
+	color: purple;
+}
 
 .nav-item-hidden {
 	display: none;
@@ -90,19 +93,103 @@ header {
 
 /* Main */
 img {
-	width: 100%;
+	/*width: 100%;*/
+	display: block;
+	height: 100px;
+	margin: 0 auto;
 	border-radius: 10px;
+	/*text-align: center;*/
 }
 
 main {
 	padding: 0 10px;
 }
 
-.recipe-name {
+.recipe {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	border-bottom: 3px #FF00FF solid;
+}
+
+.recipe > section {
+	flex: 200px;
+}
+
+.recipe > .recipe-intro {
+	flex: 100%;
+}
+
+.recipe > .recipe-source {
+	flex: 100%;
+	text-align: center;
+}
+
+.recipe-info {
+	font-family: "Comic Sans MS";
+	font-size: 1.1em;
+}
+
+.recipe-info-head {
 	text-align: center;
 	text-decoration: underline;
-	font-family: Georgia;
-	font-size: 1.4em;
+}
+
+.recipe-info-list {
+	border: 1px #000000 solid;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background-color: silver;
+	list-style-type: circle;
+}
+
+.recipe-info-list-item {
+	padding-bottom: 10px;
+}
+
+.recipe-ingredients-head {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.recipe-ingredients-list, .recipe-ingredients-list td, .recipe-ingredients-list tr, .recipe-ingredients-list-head {
+	border: 1px #000000 solid;
+	border-collapse: collapse;
+}
+
+.recipe-ingredients-list td {
+	padding: 10px 10px 10px 10px;
+	font-family: courier;
+}
+
+.recipe-ingredients-list th {
+	padding: 5px 10px;
+	background-color: lightgreen;
+	text-decoration: underline;
+}
+
+.recipe-ingredients-list tr:nth-child(odd) {
+	background-color: cyan;
+}
+
+.recipe-ingredients-list tr:nth-child(even) {
+	background-color: aquamarine;
+}
+
+.recipe-ingredients-list td {
+	padding: 10px 10px 10px 10px;
+	font-family: courier;
+}
+
+.recipe-ingredients-list-amount {
+	text-align: right;
+}
+
+.recipe-ingredients-list-name {
+	text-decoration: left;
 }
 
 .recipe-figure-credit {
@@ -126,6 +213,13 @@ main {
 	background-image: linear-gradient(135deg, #95E8E5, #7FB8EB, #63EBE8);
 }
 
+.recipe-name {
+	text-align: center;
+	text-decoration: underline;
+	font-family: Georgia;
+	font-size: 1.4em;
+}
+
 .recipe-quote {
 	text-align: center;
 	font-size: 0.9em;
@@ -136,6 +230,41 @@ main {
 	font-family: Arial;
 	font-style: initial;
 	font-weight: bold;
+}
+
+.recipe-source {
+	font-family: "Courier New";
+	font-size: 1.4em;
+	font-weight: 700;
+	color: red;
+}
+
+.recipe-source-link {
+	color: royalblue;
+}
+
+.recipe-steps-head {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.recipe-steps-list {
+	margin: 0px 10px 0px 10px;
+	border: 3px orange solid;
+	border-radius: 8px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background-color: pink;
+	line-height: 24px;
+	font-family: sans;
+	font-size: 1.0em;
+}
+
+.recipe-steps-list-item {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px #000000 solid;
 }
 
 .section-head {
