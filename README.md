@@ -16,6 +16,13 @@
 - The browser must have Javascript available and enabled
 
 ## Preview
+![Screenshot1](./img/screenshots/Screenshot1.png)
+![Screenshot2](./img/screenshots/Screenshot2.png)
+![Screenshot3](./img/screenshots/Screenshot3.png)
+![Screenshot4](./img/screenshots/Screenshot4.png)
+![Screenshot5](./img/screenshots/Screenshot5.png)
+![Screenshot6](./img/screenshots/Screenshot6.png)
+![Screenshot7](./img/screenshots/Screenshot7.png)
 
 ## Extra Info
 - This was my final project for the w3c and Microsoft's **HTML &amp; CSS Fundamentals course**, the first of five courses required for achieving their **Front-End Web Developer Professional Certificate**
