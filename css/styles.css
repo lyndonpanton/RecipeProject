@@ -275,3 +275,18 @@ main {
 }
 
 /* Footer */
+.more-link {
+	margin: 0px 30px;
+	text-decoration: none;
+	cursor: help;
+	color: khaki;
+}
+
+#footer {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #4682B4;
+	text-align: center;
+	font-family: Palatino;
+	color: white;
+}
